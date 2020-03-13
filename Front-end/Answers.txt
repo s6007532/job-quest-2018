@@ -1,0 +1,6 @@
+1. redux สามารถลดความยุ่งยากในการเรียกใช้เเละอัพเดท states ได้ โดย redux ใช้หลักการการรวม state ของ ทุกๆ Component ไว้ในที่เดียว ลดความสับสนได้
+	ใช้เมื่อเเอพมีขนาดใหญ่ มี component ที่อ้างอิงถึง state ของ component อื่นจำนวนมาก
+2. SSR ช่วยทำให้ browser แสดงผลเร็วขึ้นได้ ด้วยการให้ server render หน้าเว็บเป็น HTML เเล้วส่งมาให้ client ทำให้สามารถแสดงผลได้ก่อนที่ JS จะถูกดาวน์โหลดและ parse เสร็จ SSL จึงมีประโยชน์สำหรับหน้าเว็บที่เป็น Documents เพราะทำให้ผู้ใช้เข้าถึงข้อมูลได้เร็วขึ้น ถึงจะยังไม่สามารถ interact ได้ก็ตาม
+3. 	undefined = not yet defined, when passed to a funcion, the function will use the default value of that parameter instead
+	null = defined as null, is an Object type, the function will use null as a parameter
+4. ช่วยในการ edit ช่วยให้ code มี format ที่ถูกต้องมากขึ้นได้ ลดปัญหา error จากการเขียนได้ 
